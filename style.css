@@ -200,11 +200,13 @@ body {
   }
 
   .content__text {
-    max-width: 50%;
+    width: 50%;
     font-size: 16px;
     line-height: 24px;
   }
-
+  .content__image {
+    width: 50%;
+  }
   .content__image img {
     border-radius: 8px;
   }
@@ -241,6 +243,7 @@ body {
   }
 
   .content__text {
+    width: 50%;
     font-size: 14px;
     line-height: 20px;
   }
