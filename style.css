@@ -95,7 +95,7 @@ body {
 .content__body {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 13px;
 }
 
 .content__item {
@@ -230,7 +230,6 @@ body {
   }
   .content {
     margin-top: 42px;
-    gap: 8px;
   }
   .content__header {
     display: flex;
