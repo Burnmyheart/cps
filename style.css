@@ -30,8 +30,12 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   max-width: 100%;
   margin: 0 auto;
+  background-color: #f8f8f8;
 }
 
 .header {
@@ -40,6 +44,7 @@ body {
   justify-content: space-between;
   padding: 16px 24px;
   border-bottom: 1px solid #d9fff5;
+  background-color: #fff;
 }
 
 .header__left {
@@ -50,6 +55,7 @@ body {
 }
 .header__right {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   gap: 16px;
 }
@@ -70,6 +76,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  gap: 32px;
   background-color: #f8f8f8;
 }
 
@@ -100,6 +107,7 @@ body {
 .content__title--text {
   font-size: 28px;
   font-weight: 700;
+  margin: 0;
 }
 
 .content__highlight {
@@ -110,7 +118,6 @@ body {
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding-bottom: 12px;
 }
 
 .menu__nav::-webkit-scrollbar {
@@ -184,7 +191,7 @@ body {
   .content__title {
     font-size: 28px;
     font-weight: 700;
-    gap: 12px;
+    /* gap: 12px; */
   }
 
   .content__paragraph--secondary {
@@ -216,6 +223,9 @@ body {
   .header {
     display: none;
   }
+  .content {
+    margin-top: 42px;
+  }
   .content__header {
     display: flex;
     align-items: center;
@@ -234,12 +244,12 @@ body {
     font-weight: 500;
     color: #1b1c21;
     text-decoration: none;
+    gap: 8px;
   }
 
   .content__actions {
     display: flex;
     gap: 16px;
-    padding-right: 32px;
   }
 
   .content__text {
@@ -249,7 +259,6 @@ body {
   }
 
   .content__item--text {
-    margin-right: 9px;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
