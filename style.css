@@ -219,8 +219,8 @@ body {
   .content__image {
     width: 50%;
   }
-  .content__image img {
-    border-radius: 8px;
+  img.content__image {
+    border-radius: 6px;
   }
 }
 
