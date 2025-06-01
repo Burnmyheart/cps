@@ -95,7 +95,7 @@ body {
 .content__body {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 16px;
 }
 
 .content__item {
@@ -224,7 +224,7 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1124px) {
   .header {
     display: none;
   }
